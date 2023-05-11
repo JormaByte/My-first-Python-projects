@@ -48,7 +48,7 @@ pen.write("Score: 0 High Score: 0",align="center",font=("candara",24,"bold"))
 
 #Assigning the key directions
 
-def group():
+def goup():
     if head.direction !="down":
         head.direction ="up"
 
@@ -81,10 +81,10 @@ def move():
 
 
 wn.listen()
-wn.onkeypress(group,"w")
-wn.onkeypress(godown,"s")
-wn.onkeypress(goleft,"a")
-wn.onkeypress(goright,"d")
+wn.onkeypress(goup,"Up")
+wn.onkeypress(godown,"Down")
+wn.onkeypress(goleft,"Left")
+wn.onkeypress(goright,"Right")
 
 
 segments = []
