@@ -1,6 +1,9 @@
 import numpy as np
 
 
+ROW_COUNT=6
+COLUMN_COUNT=7
+
 def create_board():
     board=np.zeros((6,7))
     return board
@@ -15,8 +18,9 @@ def is_valid_location(board,col):
 
 
 def get_next_open_row():
-    for r in range()
-
+    for r in range(ROW_COUNT):
+        if board[r][col]==0
+            return r
 
 board=create_board()
 print(board)
