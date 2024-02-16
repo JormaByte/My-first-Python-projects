@@ -6,12 +6,13 @@ def roll_dice():
 
 print("Welcome to my dice rolling simulator!")
 while True:
-    answer=input("Press enter to roll the dice, or type q to exit..")
+    answer=input("Press enter to roll the dice, or press q + enter to exit..")
     if answer=="q":
         print("You quit the game")
         break
     
     dice_result = roll_dice()
     print("You rolled a", dice_result)
+
 
 
